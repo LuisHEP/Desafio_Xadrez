@@ -76,39 +76,26 @@ Simular os movimentos de três peças de xadrez utilizando diferentes estruturas
 #include <stdio.h>
 
 int main() {
-    // Quantidade de casas que cada peça irá se mover
     int casasTorre = 5;
     int casasBispo = 5;
     int casasRainha = 8;
 
-    // -------------------
-    // Movimento da TORRE
-    // -------------------
-    // A torre se move em linha reta. Vamos simular 5 casas para a direita.
-    // Utilizaremos o laço FOR.
-    printf("Movimento da Torre (5 casas para a Direita):\n");
+    // Movimento da torre 5 casas usando for
+    printf("Movimento da Torre 5 casas para a direita:\n");
     for (int i = 0; i < casasTorre; i++) {
         printf("Direita\n");
     }
 
-    // -------------------
-    // Movimento do BISPO
-    // -------------------
-    // O bispo se move na diagonal. Vamos simular 5 casas na diagonal Cima-Direita.
-    // Utilizaremos o laço WHILE.
-    printf("\nMovimento do Bispo (5 casas na diagonal Cima Direita):\n");
+    // Movimento do bispo 5 casas (cima direita) usando while
+    printf("\nMovimento do Bispo 5 casas na diagonal cima direita:\n");
     int contadorBispo = 0;
     while (contadorBispo < casasBispo) {
         printf("Cima Direita\n");
         contadorBispo++;
     }
 
-    // -------------------
-    // Movimento da RAINHA
-    // -------------------
-    // A rainha pode se mover em todas as direções. Vamos simular 8 casas para a Esquerda.
-    // Utilizaremos o laço DO-WHILE.
-    printf("\nMovimento da Rainha (8 casas para a Esquerda):\n");
+    // Movimento da rainha 8 casas para esquerda usando do while
+    printf("\nMovimento da Rainha 8 casas para a esquerda:\n");
     int contadorRainha = 0;
     do {
         printf("Esquerda\n");
