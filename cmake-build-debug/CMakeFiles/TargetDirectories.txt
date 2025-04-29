@@ -1,0 +1,3 @@
+C:/Users/Administrator/Desktop/Programação/Desafios Linguagem C/Desafio_Xadrez/cmake-build-debug/CMakeFiles/Desafio_Xadrez.dir
+C:/Users/Administrator/Desktop/Programação/Desafios Linguagem C/Desafio_Xadrez/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Administrator/Desktop/Programação/Desafios Linguagem C/Desafio_Xadrez/cmake-build-debug/CMakeFiles/rebuild_cache.dir
